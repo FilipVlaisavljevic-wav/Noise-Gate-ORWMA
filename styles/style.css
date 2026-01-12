@@ -43,8 +43,10 @@ body {
     min-height: 50vh;
     display: flex;
     justify-content: center;
-    position: relative;
-    background-color: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/strawberrywine.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
 }
 #loader {
     position: absolute;
@@ -76,6 +78,14 @@ body {
     font-weight: bold;
     font-size: larger;
 }
+
+.song-form label{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-family: var(--font-sans);
+    color: var(--text-color-light);
+
+}
 .song-form button {
     margin-top: 10px;
     padding: 12px;
@@ -95,7 +105,7 @@ body {
 }
 
 .song-form button:active{
-    background-color: var(--bg-color-dark);
+    background-color: #e2b57e;
 }
 .fade-out {
     opacity: 0;
@@ -119,12 +129,12 @@ body {
     width: 100%;
     text-align: center;
     padding-top: 1rem;
-    margin: 5px 10px 10px 5px;
+    margin-bottom: 15px;
 }
 .main-header {
     background-color: var(--bg-color-dark);
     color: var(--text-color-light);
-    padding: 1.5rem 0;
+    padding: 1.5rem;
     border-bottom: 5px solid var(--accent-color);
 }
 
