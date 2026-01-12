@@ -505,7 +505,7 @@ h3.artist-name {
 .main-lounge{
     flex-direction: column;
     max-width: 55vb;
-    gap: 0px;
+    gap: 15px;
     padding: 1rem;
 }
     .reviews-grid {
