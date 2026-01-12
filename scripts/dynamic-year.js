@@ -1,0 +1,1 @@
+document.getElementById('year').textContent = "\u00A9 " + new Date().getFullYear()+ " Noise Gate.";
