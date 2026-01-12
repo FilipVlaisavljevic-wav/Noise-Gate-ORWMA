@@ -22,8 +22,8 @@ const render = new THREE.WebGLRenderer({alpha: true, antialias: true});
 render.setSize(container.clientWidth, container.clientHeight);
 container.appendChild(render.domElement);
 
-const directLighting = new THREE.DirectionalLight(0xffffff, 1.7);
-directLighting.position.set(-10, 50, -17);
+const directLighting = new THREE.DirectionalLight(0xffffff, 2);
+directLighting.position.set(0, 50, 50);
 //directLighting.add(visualiser);
 const ambientLighting = new THREE.AmbientLight(0xffffff, 1.5);
 scene.add(directLighting);
