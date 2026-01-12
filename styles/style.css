@@ -54,7 +54,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: var(--font-serif);
-    color: var(--text-color-dark);
+    color: var(--text-color-light);
     font-size: 1.5rem;
     letter-spacing: 2px;
     z-index: 10;
