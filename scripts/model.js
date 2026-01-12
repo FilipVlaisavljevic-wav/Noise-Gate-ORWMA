@@ -11,7 +11,7 @@ const visualiser = new THREE.Mesh(lopta, material); //za snalazenje u prost
 
 const container = document.getElementById('turntable-container')
 const camera = new THREE.PerspectiveCamera(60, container.clientWidth/container.clientHeight, 3, 1000);
-camera.position.set(20, 45, 80);
+camera.position.set(12, 35, 67);
 if(window.innerWidth<750){
     camera.position.set(20, 55, 100);
 }
