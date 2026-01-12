@@ -376,7 +376,7 @@ span.main-headline{
 }
 .dsotm {
     --bg-image: url('../images/thedarkside.jpeg');
-    min-height: 120vh;
+    min-height: 140vh;
 }
 .lziv {
     --bg-image: url('../images/zeppelin4.jpg');
