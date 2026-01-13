@@ -32,8 +32,7 @@
 
 
     .centerpiece {
-        width: 80%; 
-        text-align: center;       
+        width: 80%;        
     }
     .header-content {
         flex-direction: column;
@@ -42,7 +41,6 @@
 
     .hero-content {
         flex-direction: column;
-        text-align: center;
         gap: 3rem;
     }
 
