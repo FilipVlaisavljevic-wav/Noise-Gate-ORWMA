@@ -269,7 +269,7 @@ span.main-headline{
 
 .centerpiece {
     padding: 4rem 0;
-    width: 60dvw;        
+    width: 60dvw;  
     margin-inline: auto;
     align-self: center;
 }
@@ -359,7 +359,6 @@ span.main-headline{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 110vh;
     padding: 60px 20px;
     align-items: start;
 }
@@ -369,7 +368,6 @@ span.main-headline{
 }
 .dsotm {
     --bg-image: url('../images/thedarkside.jpeg');
-    min-height: 140vh;
 }
 .lziv {
     --bg-image: url('../images/zeppelin4.jpg');
