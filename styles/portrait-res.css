@@ -1,0 +1,70 @@
+@media (max-width: 700px) {
+    .lounge-interface {
+        width: 100%; 
+    }
+    .image-block{
+        width: 350px;
+        
+    }
+    .main-footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .social{
+        display: block;
+        font-size: larger;
+        word-spacing: 10px;
+    }
+    .main-lounge{
+        flex-direction: column;
+        max-width: 55vb;
+        gap: 15px;
+        padding: 1rem;
+    }
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+        .main-headline {
+        font-size: 2.2rem;
+    }
+
+
+    .centerpiece {
+        width: 80%; 
+        text-align: center;       
+    }
+    .header-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .main-headline {
+        font-size: 2.8rem;
+    }
+
+    .hero-quote {
+        border-left: none;
+        border-top: 3px solid var(--accent-color);
+        padding-left: 0;
+        padding-top: 1rem;
+        display: inline-block;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image-block {
+        width: 100%;
+        height: 400px;
+    }
+}
