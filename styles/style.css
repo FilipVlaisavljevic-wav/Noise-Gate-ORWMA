@@ -319,13 +319,13 @@ span.main-headline{
     overflow: hidden;
     text-decoration: none;
     color: inherit;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 7px, var(--bg-brown);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .review-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 20px rgba(46, 30, 22, 0.2);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 18px var(--bg-brown);
     border-color: var(--accent);
 }
 
