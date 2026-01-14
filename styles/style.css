@@ -157,8 +157,8 @@ body {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    padding-right: 20px;
 }
+
 footer a {
     color: var(--accent)
 }
