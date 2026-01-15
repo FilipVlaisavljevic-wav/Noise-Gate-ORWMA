@@ -25,7 +25,7 @@ container.appendChild(render.domElement);
 const directLighting = new THREE.DirectionalLight(0xffffff, 2);
 directLighting.position.set(0, 50, 50);
 //directLighting.add(visualiser);
-const ambientLighting = new THREE.AmbientLight(0xffffff, 1.5);
+const ambientLighting = new THREE.AmbientLight(0xffffff, 0.15);
 scene.add(directLighting);
 scene.add(ambientLighting);
 
