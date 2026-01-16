@@ -68,10 +68,10 @@ let needlePin;
 let ringsArm;
 window.addEventListener('click', onMouseClick);
 
-const mouseControl = new OrbitControls(camera, render.domElement);
+/*const mouseControl = new OrbitControls(camera, render.domElement);
 mouseControl.enableDamping = true;
 mouseControl.dampingFactor = 0.05;
-mouseControl.enableZoom = true;
+mouseControl.enableZoom = true;*/
 
 function onMouseClick(event){
     const rect = render.domElement.getBoundingClientRect();
@@ -165,7 +165,7 @@ function animation() {
         armPivot.rotation.y = THREE.MathUtils.lerp(armPivot.rotation.y, targetRotation, 0.05);
         armPivot.rotation.z = THREE.MathUtils.lerp(armPivot.rotation.z, targetLower, 0.05);
     }
-    mouseControl.update();
+    //mouseControl.update();
     render.render(scene, camera);
 }
 animation();
