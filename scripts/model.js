@@ -38,12 +38,6 @@ container.appendChild(render.domElement);
 const directLighting = new THREE.DirectionalLight(0xffffff, 1.5);
 directLighting.position.set(10, 50, 30);
 //directLighting.add(visualiser)
-directLighting.castShadow = true;
-
-directLighting.shadow.mapSize.width = 2048;
-directLighting.shadow.mapSize.height = 2048;
-directLighting.shadow.camera.near = 0.5;
-directLighting.shadow.camera.far = 500;
 
 const ambientLighting = new THREE.AmbientLight(0xffffff, 0.1);
 
