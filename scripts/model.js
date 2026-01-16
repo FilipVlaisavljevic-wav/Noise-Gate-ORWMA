@@ -22,10 +22,13 @@ const render = new THREE.WebGLRenderer({alpha: true, antialias: true});
 render.setSize(container.clientWidth, container.clientHeight);
 container.appendChild(render.domElement);
 
+render.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+render.setSize(container.clientWidth, container.clientHeight);
+
 const directLighting = new THREE.DirectionalLight(0xffffff, 2);
 directLighting.position.set(0, 50, 50);
 //directLighting.add(visualiser);
-const ambientLighting = new THREE.AmbientLight(0xffffff, 1.5);
+const ambientLighting = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(directLighting);
 scene.add(ambientLighting);
 
