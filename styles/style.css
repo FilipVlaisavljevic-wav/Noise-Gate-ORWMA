@@ -177,6 +177,10 @@ footer a {
 
 @keyframes spin { 100% { transform: rotate(360deg); } }
 
+.logo-text{
+    text-decoration: none;
+}
+
 .logo-text .site-title {
     font-family: var(--font-serif);
     font-size: 1.8rem;
